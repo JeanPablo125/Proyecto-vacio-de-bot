@@ -27,7 +27,7 @@ while True:
                 print("¡Error! La cantidad debe ser positiva")
             else:
                 inventario[nombre] = cantidad
-                print(f"✔️ {cantidad} unidades de {nombre} agregadas")
+                print(f"✔ {cantidad} unidades de {nombre} agregadas")
         except:
             print("¡Debes ingresar un número válido!")
     
